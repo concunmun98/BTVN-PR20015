@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title> bai tap 1 </title>
+		<style type="text/css">
+			#main{
+				border:1px solid black;
+				width: 540px;
+				height: 520px;
+			}
+			#bang{
+				margin-top: 490px;
+			}
+		</style>
+		
+		<script>
+			function hthi(){
+				var go		=document.getElementById("input");
+				var hien	=document.getElementById("show");
+				hien.innerHTML = go.value;
+			}
+		</script>
+		</head>
+		
+		<body>
+
+			<input type="text" id="input" onkeyup="hthi()" oncopy="alert('Copy Success')">
+			<div type="text" id="show" oncopy="alert('Copy Success')" >
+			</div>
+	
+		</body>
+	</html>
