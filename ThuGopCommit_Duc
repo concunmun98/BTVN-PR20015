@@ -1,0 +1,12 @@
+git rebase -i HEAD~soluongcommit
+giu pick dau tien
+cac pick khac doi thanh s
+ctrl + x
+y
+Enter
+
+Xem có bao nhiêu commit là dòng không có dâu "#" đằng trước
+Đặt dấu "#" vào trước commit muốn bỏ ( lưu ý : để lại 1 dòng không có dấu # ; Các dòng khác thêm # đằng trước )
+Ctrl + X
+Y
+Enter
