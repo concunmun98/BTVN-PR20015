@@ -1,0 +1,7 @@
+git rebase -i HEAD~<soluongcommit>
+Giữ nguyên "pick" đầu tiền và thay các "pick" khác thành "s"
+Ctrl + X
+Y
+Enter
+
+Thêm dấu # vào commit muốn bỏ và giữ nguyên commit muốn giữ lại
