@@ -1,0 +1,18 @@
+git log --oneline
+sửa read me
+sửa maytinh.html
+sửa hello
+merged pull 92
+92
+merged  pull 30
+30
+git rebase -i HEAD~commits
+giữ lại 1 pick đầu tiên, sửa pick khác thành s
+ctrl + x
+y
+enter
+thêm dấu # vào commit muốn gộp
+ctlr + x
+y 
+enter
+

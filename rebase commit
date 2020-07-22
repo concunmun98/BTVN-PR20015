@@ -1,0 +1,10 @@
+
+git log--oneline
+git rebase -i HEAD~3
+pick...
+pick...s
+pick...s
+ctrl+x
+y
+them 1 dau # chi 2 trong 3 commit
+them
