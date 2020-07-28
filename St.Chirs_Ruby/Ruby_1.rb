@@ -4,7 +4,7 @@ puts "#{n} là integer"
 elsif n.is_a? Float
 puts "#{n} là kiểu float"
 else 
-	puts "chả biết #{n là kiểu quái thai gì "
+	puts "chả biết #{n}"
 end	
 end
 fixx(4)
